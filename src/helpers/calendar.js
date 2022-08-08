@@ -107,7 +107,7 @@ export default (month = THIS_MONTH, year = THIS_YEAR) => {
 
   const daysFromPrevMonth = monthFirstDay - 1;
   const daysFromNextMonth =
-    CALENDAR_WEEKS * 7 - (daysFromPrevMonth + monthDays);
+    CALENDER_WEEKS * 7 - (daysFromPrevMonth + monthDays);
 
   const { month: prevMonth, year: prevMonthYear } = getPreviousMonth(
     month,
